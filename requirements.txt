@@ -1,0 +1,10 @@
+# Optional: Only needed if using OpenAI API
+# openai>=1.0.0
+
+# Google Sheets Integration (Optional, but needed for Google Sheets export)
+gspread>=5.0.0
+oauth2client>=4.1.3
+
+# Core dependencies (already in Python stdlib):
+# csv, os, re, typing, json
+

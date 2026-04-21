@@ -1,0 +1,82 @@
+# --- Secrets / Credentials ---
+credentials.json
+credential.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cert
+*.jks
+*.keystore
+.env
+.env.*
+.env.local
+.env.production
+!.env.example
+secrets.*
+*.secret
+service-account*.json
+firebase-adminsdk*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+*.out
+*.err
+
+# --- Data files ---
+output.csv
+*.xlsx
+
+# --- Node / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+.nuxt/
+dist/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / temp ---
+*.log
+tmp/
+temp/
+
+# --- Local databases / runtime files ---
+*.sqlite
+*.sqlite3
+*.db
+*.pid
